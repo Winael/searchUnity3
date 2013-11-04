@@ -1,0 +1,937 @@
+/**
+ * This is a stylesheet for a demo presentation for impress.js
+ * 
+ * It is not meant to be a part of impress.js and is not required by impress.js.
+ * I expect that anyone creating a presentation for impress.js would create their own
+ * set of styles.
+ */
+
+
+@font-face {
+  font-family: 'Ubuntu';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Ubuntu'), url(Ubuntu.woff) format('woff');
+}
+
+.step {
+    position: relative;
+    width: 1200px;
+    padding: 10px;
+    margin: 5px auto;
+
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing:    border-box;
+    -ms-box-sizing:     border-box;
+    -o-box-sizing:      border-box;
+    box-sizing:         border-box;
+
+    font-family: 'Ubuntu';
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+.impress-enabled .step {
+
+    opacity: 0;
+
+}
+
+/*
+ * BODY
+ * ====
+ */
+
+body {
+    
+    font-family:'Ubuntu', sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    background: url(../img/bgufr.png) repeat scroll 0 0 transparent;
+    
+}
+
+h1 {
+    font-weight: 300;
+    font-size: 45px;
+    font-family: 'Ubuntu';
+}
+
+h2 {
+    font-weight: 300;
+    font-size: 32px;
+    font-family: 'Ubuntu';
+}
+
+h3 {
+    font-weight: 300;
+    font-size: 23px;
+    font-family: 'Ubuntu';
+}
+
+/*
+ * SLIDE
+ * =====
+ */
+
+.slide {
+    display: block;
+
+    width: 1200px;
+    height: 700px;
+    padding: 10px 30px;
+
+    background-color: white;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    border-radius: 4px;
+    -webkit-box-shadow: 0 2px 2px 0 #C2C2C2;
+    box-shadow: 0 2px 2px 0 #C2C2C2;
+    
+    color: rgb(102, 102, 102);
+
+    font-family: 'Ubuntu', sans-serif;
+
+}
+
+/*
+ * TITRE
+ * =====
+ */
+
+#title h1 {
+
+    font-size: 80px;
+    font-family: 'Ubuntu';
+    font-weight: 300;
+    text-align: center;
+    display: block;
+
+}
+
+#title h1 .search {
+
+    display: block;
+    
+}
+
+#title h1 .with {
+
+    display: block;
+    
+}
+
+#title h1 .unity {
+
+    display: block;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    
+}
+
+#title .author {
+
+    display: block;
+    text-align: center;
+    font-size: 32px;
+    
+}
+
+#title .author a {
+
+    color: #dd4814;
+    background: none;
+    text-shadow: 0px 2px 2px 0px rgba(#C3C3C3);
+    
+}
+    
+    
+/****************
+ **            **
+ ** HISTORIQUE **
+ **            **
+ ****************/
+ 
+/*
+ * HISTORIQUE: TITRE
+ * ------------------
+ */
+ 
+ #historique_title {
+ 
+    vertical-align: middle;
+ 
+ }
+ 
+ #historique_title h2 {
+
+    font-size: 45px;
+    font-weight: 300;
+    font-family: 'Ubuntu';
+    display: block;
+ 
+    padding-top: 300px;
+    padding-left: 350px;
+     
+ }
+ 
+/*
+ * HISTORIQUE: 10 mai 2010 - 1
+ * ---------------------------
+ */
+
+#historique_100510_1 {
+
+    padding-top: 150px;
+    padding-left: 30px;
+
+}
+  
+#historique_100510_1 h3 {
+
+    padding-left: 30px;
+    
+    font-family: 'Ubuntu';
+    font-size: 60px;
+    font-weight: 300;
+    
+}
+
+#historique_100510_1 .description {
+
+    padding-left: 30px;
+    
+    display: inline-block;
+    font-family: 'Ubuntu';
+    font-size: 32px;
+    line-height: 1.5;
+    vertical-align: top;
+    width: 500px;
+       
+}
+
+#historique_100510_1 .img_100510_1 {
+
+    display:inline-block;
+    margin-left:50px;
+
+}
+
+/*
+ * HISTORIQUE: 10 mai 2010 - 2
+ * ---------------------------
+ */
+
+#historique_100510_2 {
+
+    padding-top: 150px;
+    padding-left: 30px;
+
+}
+  
+#historique_100510_2 h3 {
+
+    padding-left: 30px;
+    
+    font-family: 'Ubuntu';
+    font-size: 60px;
+    font-weight: 300;
+    
+}
+
+#historique_100510_2 .description {
+
+    padding-left: 30px;
+    
+    display: inline-block;
+    font-family: 'Ubuntu';
+    font-size: 32px;
+    line-height: 1.5;
+    vertical-align: top;
+    width: 500px;
+       
+}
+
+#historique_100510_2 .img_100510_1 {
+
+    display:inline-block;
+    margin-left:50px;
+
+}
+
+/*
+ * HISTORIQUE: 10 mai 2010 - 3
+ * ---------------------------
+ */
+
+#historique_100510_3 {
+
+    padding-top: 150px;
+    padding-left: 30px;
+
+}
+  
+#historique_100510_3 h3 {
+
+    padding-left: 30px;
+    
+    font-family: 'Ubuntu';
+    font-size: 60px;
+    font-weight: 300;
+    
+}
+
+#historique_100510_3 .description {
+
+    padding-left: 30px;
+    
+    display: inline-block;
+    font-family: 'Ubuntu';
+    font-size: 32px;
+    line-height: 1.5;
+    vertical-align: top;
+    width: 500px;
+       
+}
+
+#historique_100510_3 .img_100510_2 {
+
+    display:inline-block;
+    margin-left:50px;
+
+}
+
+/*
+ * HISTORIQUE: 10 mai 2010 - 4
+ * ---------------------------
+ */
+
+#historique_100510_4 {
+
+    padding-top: 150px;
+    padding-left: 30px;
+
+}
+  
+#historique_100510_4 h3 {
+
+    padding-left: 30px;
+    
+    font-family: 'Ubuntu';
+    font-size: 60px;
+    font-weight: 300;
+    
+}
+
+#historique_100510_4 .description {
+
+    padding-left: 30px;
+    
+    display: inline-block;
+    font-family: 'Ubuntu';
+    font-size: 32px;
+    line-height: 1.5;
+    vertical-align: top;
+    width: 500px;
+       
+}
+
+#historique_100510_4 .img_100510_3 {
+
+    display:inline-block;
+    margin-left:50px;
+
+}
+
+/*
+ * HISTORIQUE: 10.10
+ * -----------------
+ */
+
+#historique_1010 {
+
+    padding-top: 150px;
+    padding-left: 30px;
+
+}
+  
+#historique_1010 h3 {
+
+    padding-left: 30px;
+    
+    font-family: 'Ubuntu';
+    font-size: 60px;
+    font-weight: 300;
+    
+}
+
+#historique_1010 .description {
+
+    padding-left: 30px;
+    
+    display: inline-block;
+    font-family: 'Ubuntu';
+    font-size: 32px;
+    line-height: 1.5;
+    vertical-align: top;
+    width: 500px;
+       
+}
+
+#historique_1010 .img_1010 {
+
+    display:inline-block;
+    margin-left:50px;
+
+}
+
+/*
+ * HISTORIQUE: 1104
+ * ---------------------------
+ */
+
+#historique_1104 {
+
+    padding-top: 150px;
+    padding-left: 30px;
+
+}
+  
+#historique_1104 h3 {
+
+    padding-left: 30px;
+    
+    font-family: 'Ubuntu';
+    font-size: 60px;
+    font-weight: 300;
+    
+}
+
+#historique_1104 .description {
+
+    padding-left: 30px;
+    
+    display: inline-block;
+    font-family: 'Ubuntu';
+    font-size: 32px;
+    line-height: 1.5;
+    vertical-align: top;
+    width: 500px;
+       
+}
+
+#historique_1104 .img_1104 {
+
+    display:inline-block;
+    margin-left:50px;
+
+}
+
+/*
+ * HISTORIQUE: 1110
+ * ---------------------------
+ */
+
+#historique_1110 {
+
+    padding-top: 150px;
+    padding-left: 30px;
+
+}
+  
+#historique_1110 h3 {
+
+    padding-left: 30px;
+    
+    font-family: 'Ubuntu';
+    font-size: 60px;
+    font-weight: 300;
+    
+}
+
+#historique_1110 .description {
+
+    padding-left: 30px;
+    
+    display: inline-block;
+    font-family: 'Ubuntu';
+    font-size: 32px;
+    line-height: 1.5;
+    vertical-align: top;
+    width: 500px;
+       
+}
+
+#historique_1110 .img_1110 {
+
+    display:inline-block;
+    margin-left:50px;
+
+}
+
+/*
+ * HISTORIQUE: 1204LTS
+ * ---------------------------
+ */
+
+#historique_1204LTS {
+
+    padding-top: 150px;
+    padding-left: 30px;
+
+}
+  
+#historique_1204LTS h3 {
+
+    padding-left: 30px;
+    
+    font-family: 'Ubuntu';
+    font-size: 60px;
+    font-weight: 300;
+    
+}
+
+#historique_1204LTS .description {
+
+    padding-left: 30px;
+    
+    display: inline-block;
+    font-family: 'Ubuntu';
+    font-size: 32px;
+    line-height: 1.5;
+    vertical-align: top;
+    width: 500px;
+       
+}
+
+#historique_1204LTS .img_1204LTS {
+
+    display:inline-block;
+    margin-left:50px;
+    margin-top: -75px;
+
+}
+
+/*
+ * HISTORIQUE: 1210_1
+ * ---------------------------
+ */
+
+#historique_1210_1 {
+
+    padding-top: 150px;
+    padding-left: 30px;
+
+}
+  
+#historique_1210_1 h3 {
+
+    padding-left: 30px;
+    
+    font-family: 'Ubuntu';
+    font-size: 60px;
+    font-weight: 300;
+    
+}
+
+#historique_1210_1 .description {
+
+    padding-left: 30px;
+    
+    display: inline-block;
+    font-family: 'Ubuntu';
+    font-size: 32px;
+    line-height: 1.5;
+    vertical-align: top;
+    width: 500px;
+       
+}
+
+#historique_1210_1 .img_1210_1 {
+
+    display:inline-block;
+    margin-left:50px;
+
+}
+
+/*
+ * HISTORIQUE: 1210-2
+ * ---------------------------
+ */
+
+#historique_1210_2 {
+
+    padding-top: 150px;
+    padding-left: 30px;
+
+}
+  
+#historique_1210_2 h3 {
+
+    padding-left: 30px;
+    
+    font-family: 'Ubuntu';
+    font-size: 60px;
+    font-weight: 300;
+    
+}
+
+#historique_1210_2 .description {
+
+    padding-left: 30px;
+    
+    display: inline-block;
+    font-family: 'Ubuntu';
+    font-size: 32px;
+    line-height: 1.5;
+    vertical-align: top;
+    width: 500px;
+       
+}
+
+#historique_1210_2 .img_1210_2 {
+
+    display:inline-block;
+    margin-left:50px;
+
+}
+
+/*
+ * HISTORIQUE: 1304
+ * ----------------
+ */
+
+#historique_1304 {
+
+    padding-top: 150px;
+    padding-left: 30px;
+
+}
+  
+#historique_1304 h3 {
+
+    padding-left: 30px;
+    
+    font-family: 'Ubuntu';
+    font-size: 60px;
+    font-weight: 300;
+    
+}
+
+#historique_1304 .description {
+
+    padding-left: 30px;
+    
+    display: inline-block;
+    font-family: 'Ubuntu';
+    font-size: 32px;
+    line-height: 1.5;
+    vertical-align: top;
+    width: 500px;
+       
+}
+
+#historique_1304 .img_1304 {
+
+    display:inline-block;
+    margin-left:50px;
+
+}
+
+
+/***************************
+ **                       **
+ ** QU'EST-CE QUE UNITY ? **
+ **                       **
+ ***************************/
+ 
+/*
+ * KESAKO: TITRE
+ * ------------------
+ */
+ 
+ #kesako_unity_title {
+ 
+    vertical-align: middle;
+ 
+ }
+ 
+ #kesako_unity_title h2 {
+
+    font-size: 45px;
+    font-weight: 300;
+    font-family: 'Ubuntu';
+    display: block;
+ 
+    padding-top: 300px;
+    padding-left: 350px;
+     
+ }
+ 
+/*
+* KEZAKO: 1
+* ---------
+*/
+
+#kezako_unity_1 {
+
+    padding-top: 150px;
+    padding-left: 30px;
+
+}
+  
+#historique_1210_1 h3 {
+
+    padding-left: 30px;
+    
+    font-family: 'Ubuntu';
+    font-size: 60px;
+    font-weight: 300;
+    
+}
+
+#kezako_unity_1 .description {
+
+    padding-left: 30px;
+    
+    display: inline-block;
+    font-family: 'Ubuntu';
+    font-size: 32px;
+    line-height: 1.5;
+    vertical-align: top;
+       
+}
+
+#kezako_unity_1 .description .not_focus {
+
+    opacity: 0.2;
+
+}
+
+/*
+* KEZAKO: 2
+* ---------
+*/
+
+#kezako_unity_2 {
+
+    padding-top: 150px;
+    padding-left: 30px;
+
+}
+  
+#historique_1210_1 h3 {
+
+    padding-left: 30px;
+    
+    font-family: 'Ubuntu';
+    font-size: 60px;
+    font-weight: 300;
+    
+}
+
+#kezako_unity_2 .description {
+
+    padding-left: 30px;
+    
+    display: inline-block;
+    font-family: 'Ubuntu';
+    font-size: 32px;
+    line-height: 1.5;
+    vertical-align: top;
+       
+}
+
+#kezako_unity_2 .description .not_focus {
+
+    opacity: 0.2;
+
+}
+
+/*
+ * KEZAKO: 3
+ * ---------
+ */
+
+#kezako_unity_3 {
+
+    padding-top: 150px;
+    padding-left: 30px;
+
+}
+  
+#historique_1210_1 h3 {
+
+    padding-left: 30px;
+    
+    font-family: 'Ubuntu';
+    font-size: 60px;
+    font-weight: 300;
+    
+}
+
+#kezako_unity_3 .description {
+
+    padding-left: 30px;
+    
+    display: inline-block;
+    font-family: 'Ubuntu';
+    font-size: 32px;
+    line-height: 1.5;
+    vertical-align: top;
+       
+}
+
+#kezako_unity_3 .description .not_focus {
+
+    opacity: 0.2;
+
+}
+
+/*
+ * KEZAKO: Unity
+ * -----------------
+ */
+
+#kezako_unity_4 {
+    
+    opacity : 1;
+    
+}
+
+/*
+ * KEZAKO: Launchbar
+ *
+ */
+
+#kezako_unity_5_1 h3 {
+
+    padding-left: 30px;
+    
+    font-family: 'Ubuntu';
+    font-size: 60px;
+    font-weight: 300;
+
+}
+
+#kezako_unity_5_1 .description {
+
+    padding-left: 30px;
+    padding-top: 30px;
+    
+    display: inline-block;
+    font-family: 'Ubuntu';
+    font-size: 32px;
+    line-height: 1.5;
+    vertical-align: top;
+       
+}
+
+#kezako_unity_5_1 .description .focus {
+
+	opacity: 1;
+	
+	-webkit-transform: translateZ(50px);
+    -moz-transform:    translateZ(50px);
+    -ms-transform:     translateZ(50px);
+    -o-transform:      translateZ(50px);
+    transform:         translateZ(50px);
+
+}
+
+#kezako_unity_5_1 .description .not_focus {
+
+    opacity: 0.2;
+
+}
+
+#kezako_unity_5_2 h3 {
+
+    padding-left: 30px;
+    
+    font-family: 'Ubuntu';
+    font-size: 60px;
+    font-weight: 300;
+
+}
+
+#kezako_unity_5_2 .description {
+
+    padding-left: 30px;
+    padding-top: 30px;
+    
+    display: inline-block;
+    font-family: 'Ubuntu';
+    font-size: 32px;
+    line-height: 1.5;
+    vertical-align: top;
+       
+}
+
+#kezako_unity_5_2 .description .focus {
+
+	opacity: 1;
+	
+	-webkit-transform: translateZ(50px);
+    -moz-transform:    translateZ(50px);
+    -ms-transform:     translateZ(50px);
+    -o-transform:      translateZ(50px);
+    transform:         translateZ(50px);
+
+}
+
+#kezako_unity_5_2 .description .not_focus {
+
+    opacity: 0.2;
+
+}
+
+#kezako_unity_5_3 h3 {
+
+    padding-left: 30px;
+    
+    font-family: 'Ubuntu';
+    font-size: 60px;
+    font-weight: 300;
+
+}
+
+#kezako_unity_5_3 .description {
+
+    padding-left: 30px;
+    padding-top: 30px;
+    
+    display: inline-block;
+    font-family: 'Ubuntu';
+    font-size: 32px;
+    line-height: 1.5;
+    vertical-align: top;
+       
+}
+
+#kezako_unity_5_3 .description .focus {
+
+	opacity: 1;
+	
+	-webkit-transform: translateZ(50px);
+    -moz-transform:    translateZ(50px);
+    -ms-transform:     translateZ(50px);
+    -o-transform:      translateZ(50px);
+    transform:         translateZ(50px);
+
+}
+
+#kezako_unity_5_3 .description .not_focus {
+
+    opacity: 0.2;
+
+}
+
+#kezako_unity_5_3 .unity_cadre {
+
+	float: rigt;
+	display: inline;
+	padding-left: 955px;
+	width: 50px;
+
+}
